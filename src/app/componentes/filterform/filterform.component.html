@@ -80,8 +80,8 @@
           </div>
           <div>
             <p><label for="price"><strong>Price:</strong> </label></p>
-            <span>Min Price:</span
-            ><input
+            <span>Min Price:</span>
+            <input
               type="range"
               id="price"
               formControlName="priceMin"
@@ -89,7 +89,7 @@
               max="20000"
               step="1000"
             />
-            <span class="filtNum">{{ filterForm.get("priceMin")?.value }}</span>
+            <span class="filtNum">{{ filterForm.get("priceMin")?.value }}$</span>
             <p>
               Max Price:
               <input
@@ -101,7 +101,7 @@
                 step="1000"
               />
     
-              <span class="filtNum">{{ filterForm.get("priceMax")?.value }}</span>
+              <span class="filtNum">{{ filterForm.get("priceMax")?.value }}$</span>
             </p>
           </div>
           <div>

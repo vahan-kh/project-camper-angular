@@ -10,7 +10,7 @@ import { loginGuard } from './guards/login.guard';
 import { UserComponent } from './componentes/user/user.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', component: HomeComponent, canActivate: [loginGuard] },
+  { path: '', pathMatch: 'full', component: HomeComponent},
   { path: 'user', component: UserComponent },
   { path: 'adduser', component: AdduserComponent },
   { path: 'allcampers', component: CamperVanListComponent },

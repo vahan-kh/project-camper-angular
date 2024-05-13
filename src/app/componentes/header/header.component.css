@@ -9,6 +9,12 @@
     width: 14rem;
 }
 
+hr{
+    color: black;
+    border: 1px solid rgb(130, 128, 128);
+    
+}
+
 ul {
     display: flex;
    gap: 20px;
@@ -17,9 +23,8 @@ ul {
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 30px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: rgb(251, 251, 229)
+    
+    
     
 };
 
@@ -29,17 +34,43 @@ div {
     height: 60%;
 }
 
-ul{
+.navVans{
+    width: 32%;
+}
+
+ .navVans li{
+    padding: 8px;
+    width: 27%;
+    height: 2vh;
+   justify-content: center;
     display: flex;
-    width: 18%;
-    gap: 20px;
-    list-style: none;
-    cursor: pointer;
-   
-};
+    flex-wrap: wrap;
+    
+}
 
 .login{
     float: right;
 }
 
- 
+.login li {
+    padding: 8px 7px 8px 7px;
+    width: 27%;
+    height: 2vh;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    border-radius: 6px;
+    box-shadow: 4px 15px 30px 0px;
+    background-color: #032635;
+  color: white;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+  }
+
